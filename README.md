@@ -19,3 +19,5 @@ where y is the dependent variable, x is the independent variable, whereas m is t
 Here, we use the linear regression as an algorithm for our stair climbing model. The accuracy (0.168%) and performance are both extremely low, this may be due to the inflexibility of linear regression and the fact that each 3Dcen coordinate is so far away from the other that it is difficult to find the best “straight line” for a linear regression model that is close to each point. Figure 23 shows the confusion matrix of linear regression. Showing 0 result of true negative and true positive.
 On the other hand, we plot 3Dcen on 3D coordinates to visualize the performance of linear regression model. We set different colors for true positive (blue), true negative (yellow), false positive (green), false negative (black). 
 ![image](https://user-images.githubusercontent.com/117455557/225656752-d1e657b0-8c2b-48fb-9a21-f17df75e643e.png)
+![image](https://user-images.githubusercontent.com/117455557/225656938-fa58483b-9317-4777-9353-69e3d66765fa.png)
+As shown in the above figure, linear regression model does not correctly predict stair climbing and other motions.
